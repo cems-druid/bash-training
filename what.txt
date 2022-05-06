@@ -1,0 +1,2 @@
+These are some of the scripts gathered from Introduction to Bash Scripting by Bobby Iliev.
+
