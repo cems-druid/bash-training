@@ -1,0 +1,2 @@
+#This script aims to run a bash script (remote_check.sh) on different servers. Reads the IPs on a text file then works on it. 
+for server in $(cat servers_ip_list.txt); do ssh your_user@${server} 'bash -s' <./remote_check.sh ; done
